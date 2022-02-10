@@ -1,0 +1,103 @@
+html,
+body {
+  background-color: #14bdac;
+}
+
+.nav {
+  background-color: #3b3738;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7e8f7c;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  padding: 5px;
+  height: 20px;
+}
+
+canvas {
+  border: 1px solid #000000;
+}
+
+.btn {
+  border-radius: 5px;
+  background: #3b3738;
+  border: 2px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7e8f7c;
+  padding: 5px;
+  width: 120px;
+  height: 40px;
+}
+
+.clear {
+  height: 61px;
+}
+
+.reset {
+  height: 60px;
+}
+
+.app-wrapper {
+  margin-top: 191px;
+  text-align: left;
+  animation: fadein 1.5s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+canvas {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7e8f7c;
+}
